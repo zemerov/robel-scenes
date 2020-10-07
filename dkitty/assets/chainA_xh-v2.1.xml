@@ -39,7 +39,7 @@
     <geom class="collision" pos="0.078 0.122 0" size="0.024 0.018 0.015" type="box" mass=".086"/>
     <!-- Front Right Leg -->
     <body euler="0 -3.14 0" name="A:FR10" pos="0.09 0.122 0">
-      <joint axis="0 1 0" name="A:FRJ10" range="-3.419 0.279"/>
+      <joint axis="0 1 0" name="A:FRJ10" range="-3.419 0.279" damping="0.2"/>
       <geom class="viz_metal_grey" euler="0 0 1.57" mesh="fr12_h103_3" pos="0 0 0.0005"/>
       <geom class="viz_metal_black" euler="0 3.14 0" mesh="x430_dkitty_2" pos="0 0 0.086"/>
       <geom class="viz_metal_black" mesh="xh_clamping_small" pos="0 0 0.055"/>
@@ -49,7 +49,7 @@
       <geom class="collision" pos="0 0 0.061" size="0.019 0.013 0.006" type="box" mass=".005"/>
       <geom class="collision" pos="0 0 0.084" size="0.018 0.015 0.024" type="box" mass=".095"/>
       <body name="A:FR11" pos="0 0 0.0965">
-        <joint axis="1 0 0" name="A:FRJ11" range="-2.14 2.14"/>
+        <joint axis="1 0 0" name="A:FRJ11" range="-2.14 2.14" damping="0.2"/>
         <geom class="viz_metal_grey" mesh="fr12_h103_3"/>
         <geom class="viz_metal_black" euler="0 3.14 0" mesh="x430_dkitty_2" pos="0 0 0.085"/>
         <geom class="viz_metal_black" mesh="xh_clamping_small" pos="0 0 0.0545"/>
@@ -59,7 +59,7 @@
         <geom class="collision" pos="0 0 0.084" size="0.018 0.015 0.023" type="box" mass=".095"/>
         <geom class="collision" pos="0 0 0.06" size="0.019 0.013 0.006" type="box" mass=".005"/>
         <body name="A:FR12" pos="0 0 0.0945">
-          <joint axis="1 0 0" name="A:FRJ12" range="-1.57 1.57"/>
+          <joint axis="1 0 0" name="A:FRJ12" range="-1.57 1.57" damping="0.2"/>
           <geom class="viz_metal_grey" mesh="fr12_h103_3" pos="0 0 0.001"/>
           <geom class="viz_plastic" mesh="xh_finger_tip" pos="0 0 0.055"/>
           <geom class="collision" pos="0.02 0 0.026" size="0.0015 0.013 0.029" type="box" mass=".005"/>
@@ -73,7 +73,7 @@
     </body>
     <!-- Front Left Leg -->
     <body euler="0 3.14 0" name="A:FL20" pos="-0.09 0.122 0">
-      <joint axis="0 1 0" name="A:FLJ20" range="-0.279 3.419"/>
+      <joint axis="0 1 0" name="A:FLJ20" range="-0.279 3.419" damping="0.2"/>
       <geom class="viz_metal_grey" euler="0 0 1.57" mesh="fr12_h103_3" pos="0 0 0.0005"/>
       <geom class="viz_metal_black" euler="0 3.14 0" mesh="x430_dkitty_2" pos="0 0 0.086"/>
       <geom class="viz_metal_black" mesh="xh_clamping_small" pos="0 0 0.055"/>
@@ -83,7 +83,7 @@
       <geom class="collision" pos="0 0 0.061" size="0.019 0.013 0.006" type="box" mass=".005"/>
       <geom class="collision" pos="0 0 0.084" size="0.018 0.015 0.024" type="box" mass=".095"/>
       <body name="A:FL21" pos="0 0 0.0965">
-        <joint axis="1 0 0" name="A:FLJ21" range="-2.14 2.14"/>
+        <joint axis="1 0 0" name="A:FLJ21" range="-2.14 2.14" damping="0.2"/>
         <geom class="viz_metal_grey" mesh="fr12_h103_3"/>
         <geom class="viz_metal_black" euler="0 3.14 0" mesh="x430_dkitty_2" pos="0 0 0.085"/>
         <geom class="viz_metal_black" mesh="xh_clamping_small" pos="0 0 0.0545"/>
@@ -93,7 +93,7 @@
         <geom class="collision" pos="0 0 0.084" size="0.018 0.015 0.023" type="box" mass=".095"/>
         <geom class="collision" pos="0 0 0.06" size="0.019 0.013 0.006" type="box" mass=".005"/>
         <body name="A:FL22" pos="0 0 0.0945">
-          <joint axis="1 0 0" name="A:FLJ22" range="-1.57 1.57"/>
+          <joint axis="1 0 0" name="A:FLJ22" range="-1.57 1.57" damping="0.2"/>
           <geom class="viz_metal_grey" mesh="fr12_h103_3" pos="0 0 0.001"/>
           <geom class="viz_plastic" mesh="xh_finger_tip" pos="0 0 0.055"/>
           <geom class="collision" pos="0.02 0 0.026" size="0.0015 0.013 0.029" type="box" mass=".005"/>
@@ -107,7 +107,7 @@
     </body>
     <!-- Back Left Leg -->
     <body euler="0 3.14 0" name="A:BL30" pos="-0.09 -0.122 0">
-      <joint axis="0 1 0" name="A:BLJ30" range="-0.279 3.419"/>
+      <joint axis="0 1 0" name="A:BLJ30" range="-0.279 3.419" damping="0.2"/>
       <geom class="viz_metal_grey" euler="0 0 1.57" mesh="fr12_h103_3" pos="0 0 0.0005"/>
       <geom class="viz_metal_black" euler="0 3.14 0" mesh="x430_dkitty_2" pos="0 0 0.086"/>
       <geom class="viz_metal_black" mesh="xh_clamping_small" pos="0 0 0.055"/>
@@ -117,7 +117,7 @@
       <geom class="collision" pos="0 0 0.061" size="0.019 0.013 0.006" type="box" mass=".005"/>
       <geom class="collision" pos="0 0 0.084" size="0.018 0.015 0.024" type="box" mass=".095"/>
       <body name="A:BL31" pos="0 0 0.0965">
-        <joint axis="1 0 0" name="A:BLJ31" range="-2.14 2.14"/>
+        <joint axis="1 0 0" name="A:BLJ31" range="-2.14 2.14" damping="0.2"/>
         <geom class="viz_metal_grey" mesh="fr12_h103_3"/>
         <geom class="viz_metal_black" euler="0 3.14 0" mesh="x430_dkitty_2" pos="0 0 0.085"/>
         <geom class="viz_metal_black" mesh="xh_clamping_small" pos="0 0 0.0545"/>
@@ -127,7 +127,7 @@
         <geom class="collision" pos="0 0 0.084" size="0.018 0.015 0.023" type="box" mass=".095"/>
         <geom class="collision" pos="0 0 0.06" size="0.019 0.013 0.006" type="box" mass=".005"/>
         <body name="A:BL32" pos="0 0 0.0945">
-          <joint axis="1 0 0" name="A:BLJ32" range="-1.57 1.57"/>
+          <joint axis="1 0 0" name="A:BLJ32" range="-1.57 1.57" damping="0.2"/>
           <geom class="viz_metal_grey" mesh="fr12_h103_3" pos="0 0 0.001"/>
           <geom class="viz_plastic" mesh="xh_finger_tip" pos="0 0 0.055"/>
           <geom class="collision" pos="0.02 0 0.026" size="0.0015 0.013 0.029" type="box" mass=".005"/>
@@ -141,7 +141,7 @@
     </body>
     <!-- Back Right Leg -->
     <body euler="0 -3.14 0" name="A:BR40" pos="0.09 -0.122 0">
-      <joint axis="0 1 0" name="A:BRJ40" range="-3.419 0.279"/>
+      <joint axis="0 1 0" name="A:BRJ40" range="-3.419 0.279" damping="0.2"/>
       <geom class="viz_metal_grey" euler="0 0 1.57" mesh="fr12_h103_3" pos="0 0 0.0005"/>
       <geom class="viz_metal_black" euler="0 3.14 0" mesh="x430_dkitty_2" pos="0 0 0.086"/>
       <geom class="viz_metal_black" mesh="xh_clamping_small" pos="0 0 0.055"/>
@@ -151,7 +151,7 @@
       <geom class="collision" pos="0 0 0.061" size="0.019 0.013 0.006" type="box" mass=".005"/>
       <geom class="collision" pos="0 0 0.084" size="0.018 0.015 0.024" type="box" mass=".095"/>
       <body name="A:BR41" pos="0 0 0.0965">
-        <joint axis="1 0 0" name="A:BRJ41" range="-2.14 2.14"/>
+        <joint axis="1 0 0" name="A:BRJ41" range="-2.14 2.14" damping="0.2"/>
         <geom class="viz_metal_grey" mesh="fr12_h103_3"/>
         <geom class="viz_metal_black" euler="0 3.14 0" mesh="x430_dkitty_2" pos="0 0 0.085"/>
         <geom class="viz_metal_black" mesh="xh_clamping_small" pos="0 0 0.0545"/>
@@ -161,7 +161,7 @@
         <geom class="collision" pos="0 0 0.084" size="0.018 0.015 0.023" type="box" mass=".095"/>
         <geom class="collision" pos="0 0 0.06" size="0.019 0.013 0.006" type="box" mass=".005"/>
         <body name="A:BR42" pos="0 0 0.0945">
-          <joint axis="1 0 0" name="A:BRJ42" range="-1.57 1.57"/>
+          <joint axis="1 0 0" name="A:BRJ42" range="-1.57 1.57" damping="0.2"/>
           <geom class="viz_metal_grey" mesh="fr12_h103_3" pos="0 0 0.001"/>
           <geom class="viz_plastic" mesh="xh_finger_tip" pos="0 0 0.055"/>
           <geom class="collision" pos="0.02 0 0.026" size="0.0015 0.013 0.029" type="box" mass=".005"/>

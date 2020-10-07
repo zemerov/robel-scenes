@@ -61,18 +61,18 @@
     <mesh file="../dkitty/meshes/xh_finger_tip.stl" name="xh_finger_tip"/>
   </asset>
   <actuator>
-    <position name="A:FRJ10" joint="A:FRJ10" class="dkitty" ctrlrange="-3.419 0.279"/>
-    <position name="A:FRJ11" joint="A:FRJ11" class="dkitty" ctrlrange="-2.14 2.14"/>
-    <position name="A:FRJ12" joint="A:FRJ12" class="dkitty" ctrlrange="-1.57 1.57"/>
-    <position name="A:FLJ20" joint="A:FLJ20" class="dkitty" ctrlrange="-0.279 3.419"/>
-    <position name="A:FLJ21" joint="A:FLJ21" class="dkitty" ctrlrange="-2.14 2.14"/>
-    <position name="A:FLJ22" joint="A:FLJ22" class="dkitty" ctrlrange="-1.57 1.57"/>
-    <position name="A:BLJ30" joint="A:BLJ30" class="dkitty" ctrlrange="-0.279 3.419"/>
-    <position name="A:BLJ31" joint="A:BLJ31" class="dkitty" ctrlrange="-2.14 2.14"/>
-    <position name="A:BLJ32" joint="A:BLJ32" class="dkitty" ctrlrange="-1.57 1.57"/>
-    <position name="A:BRJ40" joint="A:BRJ40" class="dkitty" ctrlrange="-3.419 0.279"/>
-    <position name="A:BRJ41" joint="A:BRJ41" class="dkitty" ctrlrange="-2.14 2.14"/>
-    <position name="A:BRJ42" joint="A:BRJ42" class="dkitty" ctrlrange="-1.57 1.57"/>
+    <position name="A:FRJ10" joint="A:FRJ10" class="dkitty" ctrlrange="-3.419 0.279" forcelimited="true" forcerange="-0.54 0.54"/>
+    <position name="A:FRJ11" joint="A:FRJ11" class="dkitty" ctrlrange="-2.14 2.14" forcelimited="true" forcerange="-0.54 0.54"/>
+    <position name="A:FRJ12" joint="A:FRJ12" class="dkitty" ctrlrange="-1.57 1.57" forcelimited="true" forcerange="-0.54 0.54"/>
+    <position name="A:FLJ20" joint="A:FLJ20" class="dkitty" ctrlrange="-0.279 3.419" forcelimited="true" forcerange="-0.54 0.54"/>
+    <position name="A:FLJ21" joint="A:FLJ21" class="dkitty" ctrlrange="-2.14 2.14" forcelimited="true" forcerange="-0.54 0.54"/>
+    <position name="A:FLJ22" joint="A:FLJ22" class="dkitty" ctrlrange="-1.57 1.57" forcelimited="true" forcerange="-0.54 0.54"/>
+    <position name="A:BLJ30" joint="A:BLJ30" class="dkitty" ctrlrange="-0.279 3.419" forcelimited="true" forcerange="-0.54 0.54"/>
+    <position name="A:BLJ31" joint="A:BLJ31" class="dkitty" ctrlrange="-2.14 2.14" forcelimited="true" forcerange="-0.54 0.54"/>
+    <position name="A:BLJ32" joint="A:BLJ32" class="dkitty" ctrlrange="-1.57 1.57" forcelimited="true" forcerange="-0.54 0.54"/>
+    <position name="A:BRJ40" joint="A:BRJ40" class="dkitty" ctrlrange="-3.419 0.279" forcelimited="true" forcerange="-0.54 0.54"/>
+    <position name="A:BRJ41" joint="A:BRJ41" class="dkitty" ctrlrange="-2.14 2.14" forcelimited="true" forcerange="-0.54 0.54"/>
+    <position name="A:BRJ42" joint="A:BRJ42" class="dkitty" ctrlrange="-1.57 1.57" forcelimited="true" forcerange="-0.54 0.54"/>
   </actuator>
   <sensor>
     <jointpos name="A:FRJ10_pos_sensor" joint="A:FRJ10"/>
